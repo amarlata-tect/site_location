@@ -1,0 +1,5 @@
+services:
+  # Services.
+  ln_address:
+    class: Drupal\ln_address\Service\LnAddressService
+    arguments: ['@config.factory']

@@ -1,0 +1,9 @@
+{% if is_data == 'true' %}
+  <div><b>Country: </b>{{ country }}</div>
+  <div><b>City: </b>{{ city }}</div>
+  <div><b>Timezone: </b>{{ timezone }}</div>
+  <div><b>Date: </b>{{ time }}</div>
+{% else %}
+  <div>Data not available
+    <a href="{{ path('ln_address.settings_form') }}" target = "blank">{{ 'Configure from here'|t }}</a> </div>
+{% endif %}

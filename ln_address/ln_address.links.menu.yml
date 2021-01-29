@@ -1,0 +1,6 @@
+ln_address.admin:
+  title: 'Site Location settings'
+  description: 'Manage Site Location settings.'
+  parent: system.admin_config_system
+  route_name: ln_address.settings_form
+  weight: 100
